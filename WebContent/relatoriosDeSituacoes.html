@@ -1,0 +1,102 @@
+<!--  Cabeçalho  - Início -->
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Loucademia</title>
+		<link rel="stylesheet" type="text/css" href="css/Loucademia_Estilo.css">
+	</head>
+		<body>
+			<header>
+				<img alt="" src="images/Loucademia_Logotipo.png">
+				<nav>
+					<div>
+						<a href="novoAluno.html">Novo Aluno</a><br>
+						<a href="pesquisaDeAluno.html">Pesquisa de Aluno</a><br>
+						<a href="controleDeAcesso.html">Controle de Acesso</a><br>
+						<a href="relatoriosDeEntradaSaida.html">Relatórios de Entradas e Saídas</a><br>
+						<a href="relatoriosDeSituacoes.html">Relatórios de Situações</a><br>
+					</div>
+				</nav>
+			</header>
+			<!--  Cabeçalho  - final -->
+			
+			<h1>Relatório de situação</h1>
+			<div id="infoMessage">
+				  (Aqui vai eventual mensagem de sistema confirmando sucesso ou erro)
+			</div>
+			
+			<br>
+			
+			<form>
+				<fieldset>
+					<legend>Parâmetros da Pesquisa</legend>
+					<label for="situacao">Situação</label><br>
+					<select name="situacao" id="situacao">
+						<option>Ativo</option>
+						<option>Inativo</option>
+						<option>Com pendência</option>
+					</select>
+					
+					 
+				</fieldset>
+				
+				<br>
+				<input type="submit" value="Gerar Relatório">
+			</form>
+			
+			<table>
+			<tr>
+				<th>ID</th>
+				<th>Nome</th>
+				<th>Situação</th>
+				<th>Celular</th>
+				<th>Fixo</th>
+				<th>Ações</th>
+			</tr>
+			<tr>
+				<td>001</td>
+				<td>Leandro </td>
+				<td>Ativo</td>
+				<td>(11)99939-6720</td>
+				<td>(11)2345-8765</td>
+				<td>
+		            <input type="button" value="Editar">
+				</td>
+			</tr>
+			<tr>
+				<td>001</td>
+				<td>Leandro </td>
+				<td>Ativo</td>
+				<td>(11)99939-6720</td>
+				<td>(11)2345-8765</td>
+				<td>
+		            <input type="button" value="Editar">
+				</td>
+			</tr>
+			<tr>
+			<tr>
+				<td>001</td>
+				<td>Leandro </td>
+				<td>Ativo</td>
+				<td>(11)99939-6720</td>
+				<td>(11)2345-8765</td>
+				<td>
+		            <input type="button" value="Editar">
+				</td>
+			</tr>
+			<tr>
+			<tr>
+				<td>001</td>
+				<td>Leandro </td>
+				<td>Ativo</td>
+				<td>(11)99939-6720</td>
+				<td>(11)2345-8765</td>
+				<td>
+		            <input type="button" value="Editar">
+				</td>
+			</tr>
+		
+		</table>
+			</body>
+</html>

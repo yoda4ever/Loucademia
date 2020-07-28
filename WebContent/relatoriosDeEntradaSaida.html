@@ -1,0 +1,90 @@
+<!--  Cabeçalho  - Início -->
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Loucademia</title>
+		<link rel="stylesheet" type="text/css" href="css/Loucademia_Estilo.css">
+	</head>
+		<body>
+			<header>
+				<img alt="" src="images/Loucademia_Logotipo.png">
+				<nav>
+					<div>
+						<a href="novoAluno.html">Novo Aluno</a><br>
+						<a href="pesquisaDeAluno.html">Pesquisa de Aluno</a><br>
+						<a href="controleDeAcesso.html">Controle de Acesso</a><br>
+						<a href="relatoriosDeEntradaSaida.html">Relatórios de Entradas e Saídas</a><br>
+						<a href="relatoriosDeSituacoes.html">Relatórios de Situações</a><br>
+					</div>
+				</nav>
+			</header>
+			<!--  Cabeçalho  - final -->
+			
+			<h1>Relatórios de Entradas e Saídas</h1>
+			<div id="infoMessage">
+				  (Aqui vai eventual mensagem de sistema confirmando sucesso ou erro)
+			</div>
+			
+			<br>
+			
+			<form>
+				<fieldset>
+					<legend>Relatórios de Entradas e Saídas</legend>
+					<label for="id">ID</label><br>
+					<input type="text" name="id" id="id"><br>
+					
+					<label for="dataInicial">Data Inicial</label><br>
+				    <input type="date" name="dataInicial" id="dataInicial"><br>
+				    
+				    <label for="dataFinal">Data Final</label><br>
+				    <input type="date" name="dataFinal" id="dataFinal"><br>
+				</fieldset>
+				
+				<br>
+				<input type="submit" value="Gerar relatório">
+			</form>
+			
+			<table>
+			<tr>
+				<th>ID</th>
+				<th>Nome</th>
+				<th>Entrada</th>
+				<th>Saída</th>
+				<th>Duração</th>
+			</tr>
+			<tr>
+				<td>001</td>
+				<td>Leandro Lima</td>
+				<td>05/03/2019 09:00:00</td>
+				<td>05/03/2019 10:00:00</td>
+				<td>00:50:00</td>
+				 
+			</tr>
+			<tr>
+				<td>002</td>
+				<td>Leandro Lima</td>
+				<td>05/03/2019 09:00:00</td>
+				<td>05/03/2019 10:00:00</td>
+				<td>00:50:00</td>
+				 
+			</tr>
+			<tr>
+				<td>003</td>
+				<td>Leandro Lima</td>
+				<td>05/03/2019 09:00:00</td>
+				<td>05/03/2019 10:00:00</td>
+			    <td>00:50:00</td>
+				 
+			</tr>
+			<tr>
+				<td>004</td>
+				<td>Leandro Lima</td>
+				<td>05/03/2019 09:00:00</td>
+				<td>05/03/2019 10:00:00</td>
+				<td>00:50:00</td>
+				 
+			</tr>		
+		</table>
+			</body>
+</html>
