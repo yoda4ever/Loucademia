@@ -22,8 +22,8 @@ public class StringUtils {//=================================================
 	
 	
 	public static void main(String[] args) {//**********************
-		String str = null;
-		int num =  123456;
+		String str = "abc";
+		int num =  100;
 		
 		boolean b = StringUtils.isEmpty(str);
 		System.out.println(b);
@@ -33,6 +33,9 @@ public class StringUtils {//=================================================
 	
 	
 }//===========================================================================
+
+
+
 
 
 
