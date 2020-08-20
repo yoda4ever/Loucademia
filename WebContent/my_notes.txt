@@ -1,1 +1,3 @@
-11/08 => Fim do módulo 4 Prazer eu sou java.
+20/08 => Parai na Aula 5.4 (1:46 min)  
+Fiz o "Binding de quase todos os campos.
+parai no cep.
