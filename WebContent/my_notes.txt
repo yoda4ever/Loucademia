@@ -1,3 +1,2 @@
-20/08 => Parai na Aula 5.4 (1:46 min)  
-Fiz o "Binding de quase todos os campos.
-parai no cep.
+26/08 => Parai na Aula 5.4 (fim)  
+Terminei o formulario ma há um erro na submissão da pagina

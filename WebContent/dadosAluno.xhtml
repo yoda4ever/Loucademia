@@ -53,11 +53,11 @@
 								<label for="cidade">Cidade </label><br />
 								<input type="text" jsf:value="#{alunoBean.aluno.endereco.cidade}" id="cidade" /><br />
 								<label for="estado">Estado</label><br />
-								<select name="estado" id="estado">
-								<option>(lista)</option>
+								<select jsf:value="#{alunoBean.aluno.endereco.estado.sigla}" id="estado" size="0">
+								<f:selectItems values="#{dataBean.estados}" var="e" itemLabel="#{e.nome}" itemValue="#{e.sigla}" />
 								</select> <br />
 								<label for="cep ">Cep </label><br />
-								<input type="text" jsf:value="#{alunoBean.aluno.endereco.cep}" " id="cep "> </input><br />
+								<input type="text" jsf:value="#{alunoBean.aluno.endereco.cep}" id="cep"  />  <br />
 							</fieldset>
 							
 							<br />
@@ -65,16 +65,16 @@
 							<fieldset>
 								<legend>Contato</legend>
 								<label for="email">Email</label><br />
-								<input type="email" name="email" id="email"></input><br />
+								<input type="email" jsf:value="#{alunoBean.aluno.email}" id="email"></input><br />
 								<label for="telefoneCelularDDD">Telefone Celular  </label><br />
-								<input type="tel" name="telefoneCelularDDD  " id="telefoneCelularDDD"></input>
-								<input type="tel" name="telefoneCelularNumero  " id="telefoneCelularNumero"></input><br />
+								<input type="tel" jsf:value="#{alunoBean.aluno.telefone.dddCelular}"   id="telefoneCelularDDD"></input>&#160;
+								<input type="tel" jsf:value="#{alunoBean.aluno.telefone.numeroCelular}" id="telefoneCelularNumero"></input><br />
 								<label for="telefoneFixoDDD">Telefone Fixo  </label><br />
-								<input type="tel" name="telefoneFixoDDD  " id="telefoneFixoDDD"></input>
-								<input type="tel" name="telefoneFixoNumero  " id="telefoneFixoNumero"></input>
+								<input type="tel" jsf:value="#{alunoBean.aluno.telefone.dddFixo}" id="telefoneFixoDDD"></input>&#160;
+								<input type="tel" jsf:value="#{alunoBean.aluno.telefone.numeroFixo}" id="telefoneFixoNumero"></input>
 							</fieldset>
 							<br />
-							<input type="submit" value="gravar"></input>
+							<input type="submit" value="gravar" jsf:action="#{alunoBean.gravar}" />
 							<input type="button" value="Relatório de Acesssos"> </input>
 							
 						</form>
