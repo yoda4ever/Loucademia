@@ -2,6 +2,7 @@ package br.com.softblue.loucademia.domain.aluno;
 
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 import javax.persistence.Column;
 import javax.persistence.Embedded;
@@ -15,6 +16,11 @@ import javax.persistence.Table;
 public class Aluno implements Serializable {
 
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	//Criando emum
 	public enum Sexo{
 		Masculino, Feminino;
@@ -158,10 +164,7 @@ public class Aluno implements Serializable {
 	}
 	
 	
-	
-	
-	
-	
+
 	
 
 }

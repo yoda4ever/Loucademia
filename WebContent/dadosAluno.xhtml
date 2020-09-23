@@ -26,10 +26,13 @@
 								</select><br />
 								<label for="rg">RG</label><br />
 								<input type="text"  jsf:value="#{alunoBean.aluno.rg}" id="rg"></input><br />
+								
+								
 								<label for="dataDeNascimento">Data de Nascimento</label><br />
 								<input type="date" jsf:value="#{alunoBean.aluno.dataNascimento}" id="dataDeNascimento"> 
-									<f:convertDateTime type="LocalDate" pattern="yyyy=MM-dd" />
+									<f:convertDateTime type="localDate" pattern="yyyy-MM-dd" />
 								</input>
+								
 							</fieldset>
 							
 							<br />
@@ -75,7 +78,7 @@
 							</fieldset>
 							<br />
 							<input type="submit" value="gravar" jsf:action="#{alunoBean.gravar}" />
-							<input type="button" value="Relatório de Acesssos"> </input>
+							<input type="button" value="Relatório de Acesssos" />
 							
 						</form>
 			</ui:define>
